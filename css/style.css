@@ -61,8 +61,6 @@ ul {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    text-align: center;
-    /* outline: 1px solid red; */
 }
 
 main .container {
@@ -363,6 +361,7 @@ color: var(--accent-color);
 /* Section-team */ 
 
 .section-team {
+    text-align: center;
     background-color: #F5F4FA;
 }
 
@@ -393,7 +392,6 @@ color: var(--accent-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-
     letter-spacing: 0.03em;
 }
 .section-team-text {
@@ -444,7 +442,7 @@ color: var(--accent-color);
     letter-spacing: 0.03em;
 }
 
-.adress {
+.footer .adress {
     text-align: left;
     font-family: Roboto, sans-serif;
     font-style: normal;
