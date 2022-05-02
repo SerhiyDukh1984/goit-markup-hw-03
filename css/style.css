@@ -13,7 +13,6 @@
 }
 
 body{
-    width: 1600px;
     color: var(--primery-text-color);
     background-color: var(--primery-white-color);
 
@@ -63,7 +62,7 @@ ul {
     padding: 0 15px;
 }
 
-main .container {
+section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -108,7 +107,7 @@ main .container {
     align-items: center;
 }
 
-.nav .item {
+.site-nav .item {
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -179,7 +178,6 @@ color: var(--accent-color);
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    padding-right: 80px;
 
     color: var(--primery-white-color);
     background-color: #2F303A;
@@ -295,6 +293,10 @@ color: var(--accent-color);
 
 /* Section-work */
 
+.section-work {
+    padding-top: 0;
+}
+
 .section-work .container {
     padding-top: 0;
 }
@@ -373,9 +375,9 @@ color: var(--accent-color);
     margin-right: 30px;
 }
 
-.section-team-list .item {
+/* .section-team-list .item {
     border: #2196F3;
-}
+} */
 
 .section-team  .section-title {
     margin-bottom: 50px;
@@ -387,7 +389,6 @@ color: var(--accent-color);
 }
 
 .section-title-name {
-    margin-top: 30px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -401,10 +402,10 @@ color: var(--accent-color);
     letter-spacing: 0.03em;
 }
 
-.item-text {
-    border-right: 1px solid red;
-    border-left: 1px solid red;
-    border-bottom: 1px solid red;
+
+.section-team-list .text {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .card-list {
@@ -422,7 +423,7 @@ color: var(--accent-color);
     margin-top: 20px;
 }
 
-.footer-link {
+.footer-list-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
